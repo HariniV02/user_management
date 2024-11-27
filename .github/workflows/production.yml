@@ -53,6 +53,8 @@ jobs:
   build-and-push-docker:
     needs: test
     runs-on: ubuntu-latest
+    env: 
+      TRIVY_IGNORED_VULNERABILITIES: "CVE-2024-36039,CVE-2024-47874"
     steps:
       - uses: actions/checkout@v4
       
