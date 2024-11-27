@@ -15,22 +15,26 @@ WORKDIR /myapp
 RUN apt-get update && apt-get install -y --no-install-recommends \
     gcc \
     libpq-dev \
-    && apt-get install -y libc-bin=2.36-9+deb12u7 \
+    && apt-get install -y libc-bin=2.36-9+deb12u7 --allow-downgrades \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
 
 # Install Python dependencies in /.venv
 COPY requirements.txt .
 RUN python -m venv /.venv \
-    && . /.venv/bin/activate \
-    && pip install --upgrade pip \
-    && pip install -r requirements.txt
+    && /.venv/bin/pip install --upgrade pip \
+    && /.venv/bin/pip install -r requirements.txt
 
 # Define a second stage for the runtime, using the same Debian Bookworm slim image
 FROM python:3.12-slim-bookworm as final
 
+# Set environment variables for the final stage
+ENV PYTHONUNBUFFERED=1 \
+    PYTHONFAULTHANDLER=1 \
+    QR_CODE_DIR=/myapp/qr_codes
+
 # Upgrade libc-bin in the final stage to ensure security patch is applied
-RUN apt-get update && apt-get install -y libc-bin=2.36-9+deb12u7 \
+RUN apt-get update && apt-get install -y libc-bin=2.36-9+deb12u7 --allow-downgrades \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
 
@@ -38,10 +42,7 @@ RUN apt-get update && apt-get install -y libc-bin=2.36-9+deb12u7 \
 COPY --from=base /.venv /.venv
 
 # Set environment variable to ensure all python commands run inside the virtual environment
-ENV PATH="/.venv/bin:$PATH" \
-    PYTHONUNBUFFERED=1 \
-    PYTHONFAULTHANDLER=1 \
-    QR_CODE_DIR=/myapp/qr_codes
+ENV PATH="/.venv/bin:$PATH"
 
 # Set the working directory
 WORKDIR /myapp
