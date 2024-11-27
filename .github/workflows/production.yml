@@ -53,8 +53,6 @@ jobs:
   build-and-push-docker:
     needs: test
     runs-on: ubuntu-latest
-    env: 
-      TRIVY_IGNORED_VULNERABILITIES: "CVE-2024-36039,CVE-2024-47874"
     steps:
       - uses: actions/checkout@v4
       
@@ -84,3 +82,5 @@ jobs:
           exit-code: '1' # Fail the job if vulnerabilities are found
           ignore-unfixed: true
           severity: 'CRITICAL,HIGH'
+        env:
+          TRIVY_IGNORED_VULNERABILITIES: "CVE-2024-36039,CVE-2024-47874"
