@@ -1,4 +1,3 @@
-# email_service.py
 from builtins import ValueError, dict, str
 from settings.config import settings
 from app.utils.smtp_connection import SMTPClient
@@ -35,3 +34,8 @@ class EmailService:
             "verification_url": verification_url,
             "email": user.email
         }, 'email_verification')
+
+    async def send_professional_upgrade_email(self, user_email: str):
+        subject = "Congratulations on Your New Professional Status!"
+        body = "Dear user, your profile has been upgraded to professional status. Enjoy the new benefits!"
+        self.smtp_client.send_email(user_email, subject, body)
