@@ -142,7 +142,7 @@ Prepare a **1-2 page Word document** summarizing your journey, key learnings, an
 
 **Example Format:**
 - [QA Issue 1](https://github.com/your-repo/issues/1)
-- [New Test Case 1](https://github.com/your-repo/issues/2)
+- [New Test Cases](https://github.com/HariniV02/user_management/tree/tests?tab=readme-ov-file)
 - [Feature Implementation](https://github.com/HariniV02/user_management/tree/features?tab=readme-ov-file)
 - [DockerHub Link](https://hub.docker.com/repository/docker/hariniv02/user_management/general)
 
