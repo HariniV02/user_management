@@ -140,3 +140,4 @@ def test_user_create_with_explicit_role(user_create_data):
     user_create_data["role"] = UserRole.ADMIN
     user = UserCreate(**user_create_data)
     assert user.role == UserRole.ADMIN
+
