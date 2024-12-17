@@ -88,14 +88,20 @@ async def test_update_user_profile_field_validation(db_session, user):
 ```
 
 ### 3. Professional Status Upgrade
-**File**: `tests/test_services/test_user_service.py`
+**File**: `tests/test_conftest.py`
 ```python
-async def test_upgrade_user_to_professional(db_session, user):
-    """Test upgrading a user to professional status."""
-    result = await UserService.upgrade_to_professional(db_session, user.id)
-    assert result is True
-    upgraded_user = await UserService.get_by_id(db_session, user.id)
-    assert upgraded_user.is_professional is True
+@pytest.mark.asyncio
+async def test_update_professional_status(db_session, verified_user):
+    """Test updating professional status for a verified user."""
+    verified_user.update_professional_status(True)
+    await db_session.commit()
+
+    # Verify the updated user status in the database
+    result = await db_session.execute(select(User).filter_by(email=verified_user.email))
+    updated_user = result.scalars().first()
+
+    assert updated_user.is_professional
+    assert updated_user.professional_status_updated_at is not None
 ```
 
 ### 4. Notifications on Professional Upgrade
