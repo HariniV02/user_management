@@ -158,9 +158,3 @@ Prepare a **1-2 page Word document** summarizing your journey, key learnings, an
 
 ---
 
-## Submission Checklist ✅
-- [ ] **Reflection Document**: Includes links to all required issues and the DockerHub repository.
-- [ ] **Implemented Feature**: Completed and functional.
-- [ ] **Commit History**: Minimum 10 commits with clear commit messages.
-- [ ] **DockerHub Deployment**: Project deployed successfully.
-- [ ] **Tests Passing**: All automated tests pass on GitHub Actions.
