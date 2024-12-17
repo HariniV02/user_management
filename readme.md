@@ -1,8 +1,8 @@
-# Final Project: User Management System - Feature 9 📃✨
+# Final Project: User Management System - Feature 9 
 
 ## Implemented Features and Enhancements
 
-### 1. Profile Management 👤
+### 1. Profile Management 
 - Implemented functionality allowing users to update their profile fields such as **name**, **bio**, **location**, and more through a user-friendly API.
 
 **API Endpoint:**
@@ -13,7 +13,7 @@
 
 ---
 
-### 2. User Status Upgrade 🚀
+### 2. User Status Upgrade 
 - Developed functionality for managers and admins to upgrade a user's status to **"professional"**.
 
 **API Endpoint:**
@@ -40,7 +40,7 @@
 
 ---
 
-## Testing and Quality Assurance ✅
+## Testing and Quality Assurance 
 - **Added 10+ Test Cases:**
    - Comprehensive unit tests implemented to cover profile updates, professional status upgrades, and edge cases.
    - Scenarios include API validation, access control, and successful database updates.
@@ -49,12 +49,12 @@
 
 ---
 
-## Code and Test Details 📝
+## Code and Test Details 
 - **Feature 9 Implementation**: [GitHub Repository Link](https://github.com/your-repo)
 
 ---
 
-## Issues Resolved 🐞
+## Issues Resolved 
 ### Addressed 5 Major Issues to Improve the Project:
 1. **Updated Workflow File to Fix Docker Build Issues and Version Control** - [Issue 1 Link](https://github.com/your-repo/issues/1)
 2. **Missing Password Validation During Registration** - [Issue 2 Link](https://github.com/your-repo/issues/2)
@@ -63,7 +63,7 @@
 
 ---
 
-## Reflection Document 📄
+## Reflection Document 
 Prepare a **1-2 page Word document** summarizing your journey, key learnings, and achievements during the project. Include:
 - Links to the closed issues:
    - **5 QA Issues**, **10 Test Cases**, and **1 Feature**.
@@ -78,7 +78,7 @@ Prepare a **1-2 page Word document** summarizing your journey, key learnings, an
 
 ---
 
-## Commit History 📊
+## Commit History 
 Ensure you have **10+ meaningful commits**:
 - Use professional, descriptive commit messages.
 - Showcase progress and dedication throughout the project.
@@ -87,14 +87,11 @@ Ensure you have **10+ meaningful commits**:
 
 ---
 
-## Submission Checklist ✅
+## Submission Checklist 
 - [ ] **Reflection Document**: Includes links to all required issues and the DockerHub repository.
 - [ ] **Implemented Feature**: Completed and functional.
 - [ ] **Commit History**: Minimum 10 commits with clear commit messages.
 - [ ] **DockerHub Deployment**: Project deployed successfully.
 - [ ] **Tests Passing**: All automated tests pass on GitHub Actions.
 
----
 
-## Congratulations 🎉
-You've reached the finish line! Celebrate your hard work and ensure your project shines through these deliverables. Let your code do the talking and show the world your coding excellence. 🌟💻
