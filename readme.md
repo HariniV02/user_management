@@ -74,16 +74,8 @@ Prepare a **1-2 page Word document** summarizing your journey, key learnings, an
 - [QA Issue 1](https://github.com/your-repo/issues/1)
 - [New Test Case 1](https://github.com/your-repo/issues/2)
 - [Feature Implementation](https://github.com/your-repo/issues/3)
-- DockerHub Repository: [DockerHub Link](https://hub.docker.com/repository/docker/username/repository)
+- DockerHub Repository: [DockerHub Link](hhttps://hub.docker.com/repository/docker/hariniv02/user_management/general)
 
----
-
-## Commit History 
-Ensure you have **10+ meaningful commits**:
-- Use professional, descriptive commit messages.
-- Showcase progress and dedication throughout the project.
-
-> Projects with **less than 10 commits** will receive an automatic **0**.
 
 ---
 
