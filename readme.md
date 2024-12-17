@@ -57,9 +57,11 @@
 
 ## Issues Resolved 🐞
 ### Addressed 5 Major Issues to Improve the Project:
-1. **Updated Workflow File to Fix Docker Build Issues and Version Control** - [Issue 1 Link](https://github.com/your-repo/issues/1)
-2. **Missing Password Validation During Registration** - [Issue 2 Link](https://github.com/your-repo/issues/2)
-
+1. **Updated Workflow File to Fix Docker Build Issues and Version Control** - [Issue 1 Link](https://github.com/HariniV02/user_management/tree/1-email_verification)
+2. **Missing Password Validation During Registration** - [Issue 2 Link](https://github.com/HariniV02/user_management/tree/3-password-validation)
+3. **Profile picture URL validation** - [Issue 3 Link](https://github.com/HariniV02/user_management/tree/2-profile-update)
+4. **No default role assigned during user creation** - [Issue 4 Link](https://github.com/HariniV02/user_management/tree/4-default-role)
+5. ****
 📄 **GitHub Issues**: [GitHub Issues Link](https://github.com/your-repo/issues)
 
 ---
@@ -72,11 +74,7 @@ Prepare a **1-2 page Word document** summarizing your journey, key learnings, an
    - Link to your DockerHub repository.
 
 **Example Format:**
-- [QA Issue 1](https://github.com/your-repo/issues/1)
-- [QA Issue 2](https://github.com/HariniV02/user_management/tree/2-profile-update?tab=readme-ov-file)
-- [QA Issue 3](https://github.com/HariniV02/user_management/tree/3-password-validation?tab=readme-ov-file)
-- [QA Issue 4](https://github.com/HariniV02/user_management/tree/4-default-role?tab=readme-ov-file)
-- [QA Issue 5](https://github.com/your-repo/issues/1)
+
 - [New Test Cases](https://github.com/HariniV02/user_management/tree/tests?tab=readme-ov-file)
 - [Feature Implementation](https://github.com/HariniV02/user_management/tree/features?tab=readme-ov-file)
 - [DockerHub Link](https://hub.docker.com/repository/docker/hariniv02/user_management/general)
