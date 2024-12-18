@@ -29,12 +29,6 @@
 
 ---
 
-## Technical Updates and Deployment 🛠️
-- To resolve CI/CD pipeline failures and ensure smooth deployment, the following dependencies were updated:
-   - **PyMySQL** `>=1.1.1`
-   - **starlette** `>=0.40.0`
-   - **fastapi** `>=0.103.0`
-
 - Successful deployment to **DockerHub**:
    - **DockerHub Repository**: [DockerHub Link](https://hub.docker.com/repository/docker/hariniv02/user_management/general)
 
