@@ -11,10 +11,9 @@
 ```
 - Enables users to modify their profile data effortlessly.
 
-**Image Directory:**
-The relevant screenshot can be found at:
-```
-Screenshot 2024-12-17 at 7.13.21 PM.png
+**Image:**
+![Profile Management Screenshot](photos/Screenshot%202024-12-17%20at%207.13.21%20PM.png)
+
 ```
 
 ---
