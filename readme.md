@@ -3,7 +3,7 @@
 ## Implemented Features and Enhancements
 
 ### 1. Profile Management 
-- Implemented functionality allowing users to update their profile fields such as **name**, **bio**, **location**, and more through a user-friendly API.
+- Implemented functionality allowing users to update their profile fields such as **name**, **bio**, **location**. 
 
 **API Endpoint:**
 ```
@@ -16,13 +16,12 @@
 ---
 
 ### 2. User Status Upgrade 
-- Developed functionality for managers and admins to upgrade a user's status to **"professional"**.
+- Developed functionality for specific roles such as managers and admins to upgrade a user's status to **"professional"**.
 
 **API Endpoint:**
 ```
 /users/{user_id}/updateToProfessional
 ```
-- Empowers managers and admins to manage user designations effectively.
 
 ---
 
