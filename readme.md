@@ -3,7 +3,7 @@
 ## Implemented Features
 
 ### 1. Profile Management
-- Implemented functionality allowing users to update their profile fields such as **name**, **bio**, and **location**.
+- Implemented functionality allowing users to update their profile fields such as name, bio, and location.
 
 **API Endpoint:**
 ```
@@ -16,7 +16,7 @@
 ---
 
 ### 2. User Status Upgrade
-- Developed functionality for specific roles such as managers and admins to upgrade a user's status to **"professional"**.
+- Developed functionality for specific roles such as managers and admins to upgrade a user's status to "professional".
 
 **API Endpoint:**
 ```
@@ -26,7 +26,7 @@
 ---
 
 ### 3. Email Notification System 
-- Added automatic email notifications to inform users when their status is upgraded to **"professional"**. 
+- Added automatic email notifications to inform users when their status is upgraded to "professional". 
 ---
 
 ## Issues Resolved 
@@ -42,9 +42,6 @@
 
 ## Test Cases 
 - **Added 10+ Test Cases:**
-   - Comprehensive unit tests implemented to cover profile updates, professional status upgrades, and edge cases.
-   - Scenarios include API validation, access control, and successful database updates.
-
  **Link to Test Cases:** [10+ Test Cases](https://github.com/HariniV02/user_management/tree/tests?tab=readme-ov-file)
 
  **Note:** 
