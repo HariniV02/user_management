@@ -25,12 +25,11 @@
 
 ---
 
-### 3. Email Notification System ✉️
-- Added automatic email notifications to inform users when their status is upgraded to **"professional"**, ensuring they are kept in the loop.
-
+### 3. Email Notification System 
+- Added automatic email notifications to inform users when their status is upgraded to **"professional"**. 
 ---
 
-## Issues Resolved 🐞
+## Issues Resolved 
 1. **Updated Workflow File to Fix Docker Build Issues and Version Control** - [Issue 1 Link](https://github.com/HariniV02/user_management/tree/1-email_verification)
 2. **Missing Password Validation During Registration** - [Issue 2 Link](https://github.com/HariniV02/user_management/tree/3-password-validation)
 3. **Profile Picture URL Validation** - [Issue 3 Link](https://github.com/HariniV02/user_management/tree/2-profile-update)
@@ -41,21 +40,26 @@
 
 ---
 
-## Test Cases 📊
+## Test Cases 
 - **Added 10+ Test Cases:**
    - Comprehensive unit tests implemented to cover profile updates, professional status upgrades, and edge cases.
    - Scenarios include API validation, access control, and successful database updates.
 
-📄 **Link to Test Cases:** [10+ Test Cases](https://github.com/HariniV02/user_management/tree/tests?tab=readme-ov-file)
+ **Link to Test Cases:** [10+ Test Cases](https://github.com/HariniV02/user_management/tree/tests?tab=readme-ov-file)
+
+ **Note:** 
+    - Not all of the test cases are in this branch, I updated the tests in each specific branch. All 10 will be in the reflection document below. 
+
+
 
 ---
 
-## Deployment 🚀
+## Deployment 
    - **DockerHub Repository:** [DockerHub Link](https://hub.docker.com/repository/docker/hariniv02/user_management/general)
 
 ---
 
-## Reflection Document 📄
+## Reflection Document 
 Prepare a **1-2 page Word document** summarizing your journey, key learnings, and achievements during the project. Include:
 - Links to the closed issues:
    - **5 QA Issues**, **10 Test Cases**, and **1 Feature**.
