@@ -11,9 +11,6 @@
 ```
 - Enables users to modify their profile data effortlessly.
 
-**Image:**
-![Profile Management Screenshot](image.png)
-
 ---
 
 ### 2. User Status Upgrade 
@@ -42,9 +39,11 @@
    - Comprehensive unit tests implemented to cover profile updates, professional status upgrades, and edge cases.
    - Scenarios include API validation, access control, and successful database updates.
 
-**📄 Link to Test Cases**: [10+ Test Cases](https://github.com/HariniV02/user_management/tree/tests?tab=readme-ov-file)
+📄 **Link to Test Cases**: [10+ Test Cases](https://github.com/HariniV02/user_management/tree/tests?tab=readme-ov-file)
 
 ---
+
+
 
 ## Issues Resolved 🐞
 ### Addressed 5 Major Issues to Improve the Project:
@@ -53,8 +52,7 @@
 3. **Profile picture URL validation** - [Issue 3 Link](https://github.com/HariniV02/user_management/tree/2-profile-update)
 4. **No default role assigned during user creation** - [Issue 4 Link](https://github.com/HariniV02/user_management/tree/4-default-role)
 5. **Email Verification** - [Issue 5 Link](https://github.com/HariniV02/user_management/tree/5-docker-build-issues)
-
-**📄 GitHub Issues**: [GitHub Issues Link](https://github.com/HariniV02/user_management/issues)
+📄 **GitHub Issues**: [GitHub Issues Link](https://github.com/HariniV02/user_management/issues)
 
 ---
 
@@ -70,3 +68,6 @@ Prepare a **1-2 page Word document** summarizing your journey, key learnings, an
 - [New Test Cases](https://github.com/HariniV02/user_management/tree/tests?tab=readme-ov-file)
 - [Feature Implementation](https://github.com/HariniV02/user_management/tree/features?tab=readme-ov-file)
 - [DockerHub Link](https://hub.docker.com/repository/docker/hariniv02/user_management/general)
+
+---
+
