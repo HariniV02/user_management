@@ -1,7 +1,7 @@
 # Issue 3: Password Validation
 
 ## Description
-Implemented password validation logic during user registration to ensure strong and secure passwords.
+Implemented password validation to ensure strong passwords.
 
 ### Key Features of the Validation:
 - **Special Character Requirement:** Password must contain at least one special character from the set `!@#$%^&*(),.?":{}|<>`.
