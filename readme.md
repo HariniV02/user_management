@@ -11,6 +11,8 @@
 ```
 - Enables users to modify their profile data effortlessly.
 
+![alt text](image.png)
+
 ---
 
 ### 2. User Status Upgrade 
