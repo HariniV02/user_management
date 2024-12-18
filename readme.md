@@ -12,7 +12,7 @@
 - Enables users to modify their profile data effortlessly.
 
 **Image:**
-![Profile Management Screenshot](photos/Screenshot%202024-12-17%20at%207.13.21%20PM.png)
+![Profile Management Screenshot](photos/Screenshot%202024-12-17%20at%208.19.24%20PM.png)
 
 ```
 
