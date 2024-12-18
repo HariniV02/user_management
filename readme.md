@@ -53,7 +53,8 @@
 3. **Profile picture URL validation** - [Issue 3 Link](https://github.com/HariniV02/user_management/tree/2-profile-update)
 4. **No default role assigned during user creation** - [Issue 4 Link](https://github.com/HariniV02/user_management/tree/4-default-role)
 5. **Email Verification** - [Issue 5 Link](https://github.com/HariniV02/user_management/tree/5-docker-build-issues)
-📄 **GitHub Issues**: [GitHub Issues Link](https://github.com/HariniV02/user_management/issues)
+
+**GitHub Issues**: [GitHub Issues Link](https://github.com/HariniV02/user_management/issues)
 
 ---
 
