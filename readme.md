@@ -12,7 +12,8 @@
 - Enables users to modify their profile data effortlessly.
 
 **Image:**
-![Profile Management Screenshot](photos/Screenshot%202024-12-17%20at%208.19.24%20PM.png)
+
+![alt text](image.png)
 
 ```
 
