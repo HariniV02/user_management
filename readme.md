@@ -51,7 +51,6 @@
 ---
 
 ## Deployment 🚀
-- Successful deployment to **DockerHub**:
    - **DockerHub Repository:** [DockerHub Link](https://hub.docker.com/repository/docker/hariniv02/user_management/general)
 
 ---
@@ -63,7 +62,3 @@ Prepare a **1-2 page Word document** summarizing your journey, key learnings, an
 - Successful deployment details:
    - Link to your DockerHub repository.
 
-**Example Format:**
-- [New Test Cases](https://github.com/HariniV02/user_management/tree/tests?tab=readme-ov-file)
-- [Feature Implementation](https://github.com/HariniV02/user_management/tree/features?tab=readme-ov-file)
-- [DockerHub Link](https://hub.docker.com/repository/docker/hariniv02/user_management/general)
