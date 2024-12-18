@@ -11,6 +11,12 @@
 ```
 - Enables users to modify their profile data effortlessly.
 
+**Image Directory:**
+The relevant screenshot can be found at:
+```
+Screenshot 2024-12-17 at 7.13.21 PM.png
+```
+
 ---
 
 ### 2. User Status Upgrade 
